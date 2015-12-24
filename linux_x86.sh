@@ -72,7 +72,7 @@ PARSERS="\
 ./configure \
     --prefix=./linux/${ARCH} \
     ${GENERAL} \
-    --extra-cflags="-D__STDC_CONSTANT_MACROS -O3" \
+    --extra-cflags="-D__STDC_CONSTANT_MACROS -O2" \
     --enable-zlib \
 	--disable-yasm \
     --disable-everything \
